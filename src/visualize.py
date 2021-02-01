@@ -2,6 +2,7 @@
 
 # command line args
 import argparse
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--input_path',required=True)
 parser.add_argument('--key',required=True)
